@@ -1,0 +1,12 @@
+{
+    "name": "BeeSync",
+    "description": "Sync YouTube videos with your stream viewers, AdBlock recommended.",
+    "version": "0.1",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "beesync.js"
+    },
+    "action": {
+        "default_popup": "popup.html"
+    }
+}
