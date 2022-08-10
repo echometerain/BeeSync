@@ -1,23 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-    <html>
-        <head>
-            <link rel="stylesheet" href="popup.css" />
-            <meta charset="UTF-8" />
-            <meta
-                name="google-signin-client_id"
-                content="1043280135218-jbm7lqmbulot7einkuqe6mevqv0p42n2.apps.googleusercontent.com"
-            />
-        </head>
-        <body>
-            <script type="text/javascript" src="popup.js"></script>
-            <script
-                type="text/javascript"
-                src="platform.js"
-                async
-                defer
-            ></script>
-            <div id="my-signin2" data-onsuccess="onSignIn"></div>
-        </body>
-    </html>
+    <head>
+        <link rel="stylesheet" href="popup.css" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
+    <body>
+        <script type="text/javascript" src="popup.js"></script>
+        <div id="wrapper">
+            <div id="server">
+                <button id="g_sign_in">Google sign in</button>
+                <button id="t_sign_in">Twitch sign in</button>
+            </div>
+            <div id="client"><p>Not on youtube</p></div>
+        </div>
+    </body>
 </html>

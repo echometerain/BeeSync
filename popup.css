@@ -1,0 +1,13 @@
+#wrapper {
+    display: flex;
+}
+#server {
+    float: left;
+    padding: 10px;
+    flex: 1;
+}
+#client {
+    float: right;
+    padding: 10px;
+    flex: 1;
+}

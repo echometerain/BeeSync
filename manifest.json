@@ -4,7 +4,7 @@
     "version": "0.1",
     "manifest_version": 3,
     "background": {
-        "service_worker": "beesync.js"
+        "service_worker": "background.js"
     },
     "options_page": "options.html",
     "action": {
@@ -25,5 +25,7 @@
     "oauth2": {
         "client_id": "1043280135218-jbm7lqmbulot7einkuqe6mevqv0p42n2.apps.googleusercontent.com",
         "scopes": ["youtube.googleapis.com"]
-    }
+    },
+    "permissions": ["identity"],
+    "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAymI0x3vX/6mn8ZtO3nNw6fRikOHuHeGg1HXuwGxyw2ikB4JzDNEvLBT6aLb23spms41rAeTZRPC5QcWkKyf81YofPPAoSqMURZQccoioDD2T46yZFC5prn1RKklOL/CSqILxElRVVEGBW2VKzjcUVi3Hns9h2nSnBg3moFdmMPFT5gJiX5tINiEfXs3R9whJkgmoxCStSJmo/zNONR0R+r90sDgfzwgtYOqkqPYe2WwbbQM5gkf9nrHRKA0efYC3O9eWZmc+2iF9KG5WzYpRZpSQ6Qe8NmCvLB58tzL9YxE1/VjNdyeofBToU0EtPVPJnMDplaxH28XROtLeyAb09QIDAQAB"
 }
